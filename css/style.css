@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.header,
+.footer {
+  width: 100%;
+  min-height: 20vh;
+  background-color: yellowgreen;
+  padding: 10px 0 0 10px;
+}
+.nav,
+.aside {
+  background-color: beige;
+  width: 20%;
+  padding: 10px 0 0 10px;
+}
+
+.middle-container {
+  display: flex;
+  min-height: 60vh;
+}
+.artical {
+  width: 60%;
+  padding: 10px 0 0 10px;
+}
